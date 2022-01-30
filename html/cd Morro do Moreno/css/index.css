@@ -1,0 +1,199 @@
+/* esse que vale */
+
+/* alata-regular - latin */
+@font-face {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/alata-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/alata-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/alata-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/alata-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/alata-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/alata-v7-latin-regular.svg#Alata') format('svg'); /* Legacy iOS */
+}
+
+
+.foto {
+  background-image: url("https://www.folhavitoria.com.br/esportes/blogs/corridaderua/wp-content/uploads/2015/03/3998848-morro-do-moreno.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  font-family: Alata, sans-serif;
+  font-size: 40px;
+  color:#402500;
+  text-align:left;
+  position:relative;
+  display: block;
+}
+
+.pic {
+  padding-top: 50px;
+  
+  position: sticky;
+  
+}
+
+h1{
+
+  font-size: 28px;
+  background-color:#002A00;
+  color:white;
+  text-align: left;
+  font-family: Alata, Geneva, Tahoma, sans-serif; 
+}
+
+ h2 {
+  font-size: 18px;
+  color:#402500;
+  text-align: center;
+  font-family: Alata, Geneva, Tahoma, sans-serif;
+}
+ul, li {
+  font-size: 16px;
+  color:#402500;
+  text-align: left;
+  font-family: Alata, Geneva, Tahoma, sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+  list-style-type: square;
+
+}
+
+
+  .fauna {
+    color:#402500;
+    font-family: Alata, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-align: center;
+  }
+  .flora {
+    color:#402500;
+    font-family: Alata, Geneva, Tahoma, sans-serif;
+    display: block;
+    text-align: center;
+
+  }
+
+.geologia {
+  color:#402500;
+  font-family: Alata, Geneva, Tahoma, sans-serif;
+  display: block;
+ text-align: center;}
+
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:link {
+  color: #F4AD6E;
+}
+
+a:visited {
+  color:#66380F;
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
+a:active, .question-link:active {
+  color:#F4AD6E;
+}
+
+.características {
+  color: #66380F;
+  border: 2px solid #66380F ;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.características:hover{
+  background-color: #F4AD6E;
+  transition: background-color .1s, color .1s;
+}
+
+.características:active {
+  color: #F4AD6E;
+}
+.características-bank {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.características {
+  display: flex;
+  margin: 20px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  color: #F4AD6E;
+  font-family: 'Oswald',sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: #F4AD6E;
+}
+.imagem {
+  
+  background-size: cover;
+  height: 600px;
+  font-family: Alata, sans-serif;
+  font-size: 40px;
+  color:#402500;
+  text-align:left;
+  position:relative;
+  display: block;
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/27/07/26/rock-climbing-2264698_960_720.jpg");
+  background-position: center;
+  height: 300px;
+  position:relative;
+  display: block;
+ 
+
+
+
+
+}
+h6 {
+  text-align: center;
+  font-size: 12px;
+  color: #082213;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+  font-size: 18px;
+  color:#402500;
+  text-align: center;
+  font-family: Alata, Geneva, Tahoma, sans-serif; 
+  padding-left: 20%;
+  padding-right: 20%;
+ }
+
+ .strong {
+   font-weight:bold;
+   font-size: 20px;
+   text-align: left;
+   color:  #002A00;
+
+ }
+/* #sobre {
+  color:#402500;
+  font: size 16px;
+  text-align: center;
+  display: block;
+  padding-right:20px;
+  padding-left: 30px; */
